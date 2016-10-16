@@ -2,20 +2,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Hugo Themes</title>
-    <link>https://daedalusuva.github.io/index.xml</link>
+    <link>https://daedalusuva.github.io/public/index.xml</link>
     <description>Recent content on Hugo Themes</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Copyright (c) 2008 - 2014, Steve Francia; all rights reserved.</copyright>
     <lastBuildDate>Wed, 02 Apr 2014 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://daedalusuva.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://daedalusuva.github.io/public/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>(Hu)go Template Primer</title>
-      <link>https://daedalusuva.github.io/post/goisforlovers/</link>
+      <link>https://daedalusuva.github.io/public/post/goisforlovers/</link>
       <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
       
-      <guid>https://daedalusuva.github.io/post/goisforlovers/</guid>
+      <guid>https://daedalusuva.github.io/public/post/goisforlovers/</guid>
       <description>
 
 &lt;p&gt;Hugo uses the excellent &lt;a href=&#34;http://golang.org/&amp;gt;&#34; target=&#34;_blank&#34;&gt;go&lt;/a&gt; &lt;a href=&#34;http://golang.org/pkg/html/template/&amp;gt;&#34; target=&#34;_blank&#34;&gt;html/template&lt;/a&gt; library for
@@ -74,7 +74,7 @@ functions.&lt;/p&gt;
 &lt;p&gt;Each go template has a struct (object) made available to it. In hugo each
 template is passed either a page or a node struct depending on which type of
 page you are rendering. More details are available on the
-&lt;a href=&#34;https://daedalusuva.github.io/layout/variables&#34;&gt;variables&lt;/a&gt; page.&lt;/p&gt;
+&lt;a href=&#34;https://daedalusuva.github.io/public/layout/variables&#34;&gt;variables&lt;/a&gt; page.&lt;/p&gt;
 
 &lt;p&gt;A variable is accessed by referencing the variable name.&lt;/p&gt;
 
@@ -91,7 +91,7 @@ page you are rendering. More details are available on the
 
 &lt;p&gt;Go template ship with a few functions which provide basic functionality. The go
 template system also provides a mechanism for applications to extend the
-available functions with their own. &lt;a href=&#34;https://daedalusuva.github.io/layout/functions&#34;&gt;Hugo template
+available functions with their own. &lt;a href=&#34;https://daedalusuva.github.io/public/layout/functions&#34;&gt;Hugo template
 functions&lt;/a&gt; provide some additional functionality we believe
 are useful for building websites. Functions are called by using their name
 followed by the required parameters separated by spaces. Template
@@ -279,7 +279,7 @@ you want to inside of your templates.&lt;/p&gt;
 &lt;h2 id=&#34;using-content-page-parameters&#34;&gt;Using Content (page) Parameters&lt;/h2&gt;
 
 &lt;p&gt;In each piece of content you can provide variables to be used by the
-templates. This happens in the &lt;a href=&#34;https://daedalusuva.github.io/content/front-matter&#34;&gt;front matter&lt;/a&gt;.&lt;/p&gt;
+templates. This happens in the &lt;a href=&#34;https://daedalusuva.github.io/public/content/front-matter&#34;&gt;front matter&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;An example of this is used in this documentation site. Most of the pages
 benefit from having the table of contents provided. Sometimes the TOC just
@@ -358,10 +358,10 @@ so, such as in this example:&lt;/p&gt;
     
     <item>
       <title>Getting Started with Hugo</title>
-      <link>https://daedalusuva.github.io/post/hugoisforlovers/</link>
+      <link>https://daedalusuva.github.io/public/post/hugoisforlovers/</link>
       <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
       
-      <guid>https://daedalusuva.github.io/post/hugoisforlovers/</guid>
+      <guid>https://daedalusuva.github.io/public/post/hugoisforlovers/</guid>
       <description>
 
 &lt;h2 id=&#34;step-1-install-hugo&#34;&gt;Step 1. Install Hugo&lt;/h2&gt;
@@ -371,7 +371,7 @@ appropriate version for your os and architecture.&lt;/p&gt;
 
 &lt;p&gt;Save it somewhere specific as we will be using it in the next step.&lt;/p&gt;
 
-&lt;p&gt;More complete instructions are available at &lt;a href=&#34;https://daedalusuva.github.io/overview/installing/&#34;&gt;installing hugo&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;More complete instructions are available at &lt;a href=&#34;https://daedalusuva.github.io/public/overview/installing/&#34;&gt;installing hugo&lt;/a&gt;&lt;/p&gt;
 
 &lt;h2 id=&#34;step-2-build-the-docs&#34;&gt;Step 2. Build the Docs&lt;/h2&gt;
 
@@ -445,10 +445,10 @@ Having nearly instant feedback enables you to have your creativity flow without 
     
     <item>
       <title>Creating a New Theme</title>
-      <link>https://daedalusuva.github.io/post/creating-a-new-theme/</link>
+      <link>https://daedalusuva.github.io/public/post/creating-a-new-theme/</link>
       <pubDate>Sun, 28 Sep 2014 00:00:00 +0000</pubDate>
       
-      <guid>https://daedalusuva.github.io/post/creating-a-new-theme/</guid>
+      <guid>https://daedalusuva.github.io/public/post/creating-a-new-theme/</guid>
       <description>
 
 &lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;
@@ -1547,10 +1547,10 @@ $ vi themes/zafta/layouts/_default/single.html
     
     <item>
       <title>Creating a New Theme</title>
-      <link>https://daedalusuva.github.io/post/home/</link>
+      <link>https://daedalusuva.github.io/public/post/home/</link>
       <pubDate>Sun, 28 Sep 2014 00:00:00 +0000</pubDate>
       
-      <guid>https://daedalusuva.github.io/post/home/</guid>
+      <guid>https://daedalusuva.github.io/public/post/home/</guid>
       <description>
 
 &lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;
@@ -1565,8 +1565,8 @@ Whether you want to find out what your future student career will look like,
 have no idea what you want to do or just want to learn more about the different
 engineering majors, our seminars are perfect for you.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://daedalusuva.github.io/images/cards.jpg&#34; alt=&#34;Example image&#34; /&gt;
-&lt;img src=&#34;https://daedalusuva.github.io/images/logo.JPG&#34; alt=&#34;Example image&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://daedalusuva.github.io/public/images/cards.jpg&#34; alt=&#34;Example image&#34; /&gt;
+&lt;img src=&#34;https://daedalusuva.github.io/public/images/logo.JPG&#34; alt=&#34;Example image&#34; /&gt;&lt;/p&gt;
 </description>
     </item>
     
