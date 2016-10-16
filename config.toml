@@ -1,0 +1,19 @@
+baseurl = "https://daedalusuva.github.io/"
+title = "Hugo Themes"
+author = "Steve Francia"
+copyright = "Copyright (c) 2008 - 2014, Steve Francia; all rights reserved."
+RelativeURLs = "true"
+canonifyURLs = "true"
+languageCode = "en-us"
+theme = "startbootstrap-clean-blog"
+paginate = 3
+[blackfriday]
+plainIDAnchors = true
+hrefTargetBlank = true
+[params]
+  DateForm = "Mon, Jan 2, 2006"
+  Description = "Your site description"
+  Author = "Benoît Benedetti"
+  email = "benoit.benedetti@gmail.com"
+  Ganalytics = "XX-00000000-0"
+
