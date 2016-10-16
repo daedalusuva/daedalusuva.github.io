@@ -445,6 +445,31 @@ Having nearly instant feedback enables you to have your creativity flow without 
     
     <item>
       <title>Creating a New Theme</title>
+      <link>https://daedalusuva.github.io/public/home/</link>
+      <pubDate>Sun, 28 Sep 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://daedalusuva.github.io/public/home/</guid>
+      <description>
+
+&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;
+
+&lt;p&gt;Explore Engineering Majors&lt;/p&gt;
+
+&lt;p&gt;The Daedalus Project teaches basic concepts and important skills in each
+engineering major to first-years and transfers to the School of Engineering and
+Applied Sciences (SEAS).
+​
+Whether you want to find out what your future student career will look like,
+have no idea what you want to do or just want to learn more about the different
+engineering majors, our seminars are perfect for you.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://daedalusuva.github.io/public/images/cards.jpg&#34; alt=&#34;Example image&#34; /&gt;
+&lt;img src=&#34;https://daedalusuva.github.io/public/images/logo.JPG&#34; alt=&#34;Example image&#34; /&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Creating a New Theme</title>
       <link>https://daedalusuva.github.io/public/post/creating-a-new-theme/</link>
       <pubDate>Sun, 28 Sep 2014 00:00:00 +0000</pubDate>
       
@@ -1349,7 +1374,7 @@ i&#39;m speechless
     &amp;lt;h1&amp;gt;&amp;lt;a href=&amp;quot;http://localhost:1313/post/first-post/&amp;quot;&amp;gt;first&amp;lt;/a&amp;gt;&amp;lt;/h1&amp;gt;
 &amp;lt;script&amp;gt;document.write(&#39;&amp;lt;script src=&amp;quot;http://&#39;
         + (location.host || &#39;localhost&#39;).split(&#39;:&#39;)[0]
-		+ &#39;:1313/livereload.js?mindelay=10&amp;quot;&amp;gt;&amp;lt;/&#39;
+        + &#39;:1313/livereload.js?mindelay=10&amp;quot;&amp;gt;&amp;lt;/&#39;
         + &#39;script&amp;gt;&#39;)&amp;lt;/script&amp;gt;&amp;lt;/body&amp;gt;
 &amp;lt;/html&amp;gt;
 &lt;/code&gt;&lt;/pre&gt;
@@ -1394,8 +1419,8 @@ i&#39;m speechless
 
 &lt;pre&gt;&lt;code&gt;$ vi config.toml
 [permalinks]
-	page = &amp;quot;/:title/&amp;quot;
-	about = &amp;quot;/:filename/&amp;quot;
+    page = &amp;quot;/:title/&amp;quot;
+    about = &amp;quot;/:filename/&amp;quot;
 &lt;/code&gt;&lt;/pre&gt;
 
 &lt;p&gt;Generate the web site and verify that this didn&amp;rsquo;t work. Hugo lets &amp;ldquo;slug&amp;rdquo; or &amp;ldquo;URL&amp;rdquo; override the permalinks setting in the configuration file. Go ahead and comment out the slug in content/about.md, then generate the web site to get it to be created in the right place.&lt;/p&gt;
@@ -1414,7 +1439,7 @@ i&#39;m speechless
 &amp;lt;!DOCTYPE html&amp;gt;
 &amp;lt;html&amp;gt;
 &amp;lt;head&amp;gt;
-	&amp;lt;title&amp;gt;{{ .Title }}&amp;lt;/title&amp;gt;
+    &amp;lt;title&amp;gt;{{ .Title }}&amp;lt;/title&amp;gt;
 &amp;lt;/head&amp;gt;
 &amp;lt;body&amp;gt;
 :wq
